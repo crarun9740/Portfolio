@@ -79,11 +79,15 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.technologies}</p>
               </div>
-              <WorkImage image={project.image} alt={project.title} link={project.link} />
+              <WorkImage
+                image={project.image}
+                alt={project.title}
+                link={project.link}
+              />
             </div>
           ))}
           {/* See All Works Button */}
-          <div className="work-box work-box-cta">
+          {/* <div className="work-box work-box-cta">
             <div className="see-all-works">
               <h3>Want to see more?</h3>
               <p>Explore all of my projects and creations</p>
@@ -91,7 +95,7 @@ const Work = () => {
                 See All Works →
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

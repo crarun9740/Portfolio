@@ -30,7 +30,7 @@ const Contact = () => {
         y: 0,
         duration: 0.8,
         ease: "power3.out",
-      }
+      },
     );
 
     // Animate contact boxes with stagger from bottom
@@ -47,7 +47,7 @@ const Contact = () => {
         stagger: 0.15,
         ease: "power3.out",
       },
-      "-=0.4"
+      "-=0.4",
     );
 
     // Clean up
@@ -93,7 +93,7 @@ const Contact = () => {
             >
               Linkedin <MdArrowOutward />
             </a>
-            <a
+            {/* <a
               href={config.contact.twitter}
               target="_blank"
               rel="noopener noreferrer"
@@ -119,11 +119,12 @@ const Contact = () => {
               className="contact-social"
             >
               Instagram <MdArrowOutward />
-            </a>
+            </a> */}
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>{config.developer.fullName}</span>
+              Designed and Developed <br /> by{" "}
+              <span>{config.developer.fullName}</span>
             </h2>
             <h5>
               <MdCopyright /> {new Date().getFullYear()}

@@ -61,25 +61,41 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href={config.contact.github} target="_blank" rel="noopener noreferrer">
+          <a
+            href={config.contact.github}
+            target="https://github.com/crarun9740"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href={config.contact.linkedin} target="_blank" rel="noopener noreferrer">
+          <a
+            href={config.contact.linkedin}
+            target="www.linkedin.com/in/crarun9740"
+            rel="noopener noreferrer"
+          >
             <FaLinkedinIn />
           </a>
         </span>
-        <span>
-          <a href={config.contact.twitter} target="_blank" rel="noopener noreferrer">
+        {/* <span>
+          <a
+            href={config.contact.twitter}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaXTwitter />
           </a>
         </span>
         <span>
-          <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer">
+          <a
+            href={config.contact.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram />
           </a>
-        </span>
+        </span> */}
       </div>
       <a className="resume-button" href="#">
         <HoverLinks text="RESUME" />
