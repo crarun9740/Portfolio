@@ -1,8 +1,24 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { config } from "../config";
 import "./MyWorks.css";
 
 const MyWorks = () => {
+  useEffect(() => {
+    const previousOverflow = document.body.style.overflow;
+    const previousOverflowY = document.body.style.overflowY;
+    const previousOverflowX = document.body.style.overflowX;
+
+    document.body.style.overflowY = "auto";
+    document.body.style.overflowX = "hidden";
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.body.style.overflowY = previousOverflowY;
+      document.body.style.overflowX = previousOverflowX;
+    };
+  }, []);
+
   return (
     <div className="myworks-page">
       <div className="myworks-header">

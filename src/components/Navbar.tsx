@@ -22,8 +22,11 @@ const Navbar = () => {
       infinite: false,
     });
 
-    // Start paused
-    lenis.stop();
+    if (document.querySelector(".loading-header")) {
+      lenis.stop();
+    } else {
+      lenis.start();
+    }
 
     // Handle smooth scroll animation frame
     function raf(time: number) {

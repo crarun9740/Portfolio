@@ -791,3 +791,25 @@ body:has(.play-page) {
     flex: 1 1 auto;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .chess-board {
+    width: min(520px, calc(100vw - 50px));
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  .chat-panel {
+    height: min(400px, 70vh);
+    min-height: 300px;
+    max-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .chat-panel {
+    height: 350px;
+    min-height: 300px;
+    max-height: 350px;
+  }
+}
