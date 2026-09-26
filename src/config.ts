@@ -101,7 +101,7 @@ export const config = {
       image: "/images/fashionbhandar.png",
       description:
         "A modern responsive e-commerce web application with product browsing, reusable React components, responsive layouts, and an interactive user interface.",
-      link: "https://vercel.com/crarun9740-gmailcoms-projects/fashion_bhandar",
+      link: "https://fashionbhandar-kwbvv64z8-crarun9740-gmailcoms-projects.vercel.app/",
     },
 
     {
