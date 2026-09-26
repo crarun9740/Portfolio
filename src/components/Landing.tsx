@@ -31,7 +31,7 @@ const Landing = ({ children }: PropsWithChildren) => {
           <div className="mobile-photo">
             <img
               src="/images/Arun.jpg"
-              alt="Redoyanul Haque"
+              alt="Arun Ramesh Chavan"
               loading="eager"
               fetchPriority="high"
               decoding="async"
