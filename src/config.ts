@@ -101,7 +101,7 @@ export const config = {
       image: "/images/fashionbhandar.png",
       description:
         "A modern responsive e-commerce web application with product browsing, reusable React components, responsive layouts, and an interactive user interface.",
-      link: "fashionbhandar-kwbvv64z8-crarun9740-gmailcoms-projects.vercel.app",
+      link: "https://vercel.com/crarun9740-gmailcoms-projects/fashion_bhandar",
     },
 
     {
@@ -133,7 +133,7 @@ export const config = {
       image: "/images/Tictactoe.png",
       description:
         "An interactive browser-based Tic Tac Toe game built to practice JavaScript logic, DOM manipulation, and user interaction.",
-      link: "YOUR_PROJECT_LINK",
+      link: "https://tic-tac-jxgd8mhli-crarun9740-gmailcoms-projects.vercel.app/",
     },
   ],
 
