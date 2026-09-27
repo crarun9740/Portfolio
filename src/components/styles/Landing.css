@@ -830,7 +830,8 @@ h2.landing-info-h2 {
 }
 
 .landing-section.landing-text-hero .landing-info-h2 {
-  width: auto;
+  display: block;
+  width: 100%;
   margin: 0;
   color: var(--accentColor);
   font-size: clamp(30px, 4vw, 48px);
@@ -838,6 +839,7 @@ h2.landing-info-h2 {
   line-height: 1.15;
   letter-spacing: 0;
   white-space: normal;
+  text-align: center;
 }
 
 .landing-section.landing-text-hero .landing-info-h2::after {
